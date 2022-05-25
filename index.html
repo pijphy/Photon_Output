@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title>Photon Output </title>
+<style type="text/css">
+body {margin: 30px;}
+</style> 
+</head>
+<body>
+<form>
+	<h1>Photon Output</h1>
+MR(nC): <input type="text" id="firstNumber" /><br>
+Nd,w(cGy/nC): <input type="text" id="secondNumber" /><br>
+Ktp: <input type="text" id="thirdNumber" /><br>
+Kqq: <input type="text" id="forthNumber" /><br>
+Kpol: <input type="text" id="fifthNumber" /><br>
+Ksat: <input type="text" id="sixthNumber" /><br>
+PDD: <input type="text" id="seventhNumber" /><br>
+MU: <input type="text" id="eighthNumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="calculate" />
+</form>
+<p>The Output is : <br>
+<span id = "result"></span>
+</p>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
